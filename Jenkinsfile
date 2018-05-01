@@ -17,6 +17,6 @@ pipeline {
     TEST_USER = credentials('test-user')
   }
   parameters {
-    string(name: 'Name', defaultValue: 'NATE', description: 'Hi Cloudbees')
+    string(name: 'Name', defaultValue: 'NATE', description: 'Who should I say hi to?')
   }
 }
